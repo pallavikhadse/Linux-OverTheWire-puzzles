@@ -1,4 +1,4 @@
-# Linux-OverTheWire-puzzles Solutions (Levels 0-33)
+# Linux-OverTheWire-Bandit Solutions & Learning notes (Levels 0-33)
 
 Welcome to my write-ups and documentation for the **Bandit** wargame from OverTheWire. This repository serves as a personal portfolio of my hands-on experience with Linux administration, security concepts, and command-line mechanics.
 
@@ -10,13 +10,13 @@ Each level's walkthrough is meticulously documented as a PDF, capturing the prob
 By completing these challenges, I practiced and demonstrated proficiency in:
 * **Linux Essentials:** File permissions (`chmod`, `chown`), navigation, hidden files, and structural directories.
 * **Text Processing & Filtering:** Advanced utilization of `grep`, `awk`, `cut`, `sort`, `uniq`, `tr`, and `strings`.
-* **Cryptography & Encoding:** Working with Base64 encoding, ROT13 rotation, and utilizing tools like `openssl` for encrypted communication.
-* **Networking & Connections:** Utilizing `ssh` with custom ports/keys, data transfer with `nc` (netcat), and basic port scanning.
+* **Encoding & Secure Communication:** Working with Base64 encoding, ROT13 rotation, and and SSL/TLS connections using OpenSSL.
+* **Networking & Remote Access:** Utilizing `ssh` with custom ports/keys, communicating with services using Netcat (nc), and identifying listening services and open ports.
 * **Privilege Escalation:** Identifying and exploiting SUID/SGID binaries, investigating cron jobs, and basic shell escapes.
 
 ---
 
-## folder Directory Structure & Write-ups
+## 📂 Directory Structure & Write-ups
 
 All write-ups are stored as individual PDFs. You can find them structured as follows:
 
@@ -24,8 +24,8 @@ All write-ups are stored as individual PDFs. You can find them structured as fol
 | --- | --- |
 | **Levels 0 – 10** | Basics of SSH, file searching, handling spaces/weird characters, and text filtering.
 | **Levels 11 – 20** | Base64/ROT13 decoding, finding open ports, SSL/TLS connections, and SUID binaries.
-| **Levels 21 – 30** | Shell scripting, cron jobs, reverse engineering basics, and git repository inspection.
-| **Levels 31 – 33** | Escaping restricted shells (rbash) and final challenge mechanics.
+| **Levels 21 – 30** | Shell scripting, cron jobs, brute-force automation, and git repository inspection.
+| **Levels 31 – 33** | Git push validation, restricted shell escapes, and final challenge mechanics.
 
 
 ---
