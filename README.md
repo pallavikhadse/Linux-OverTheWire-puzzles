@@ -18,7 +18,7 @@ By completing these challenges, I practiced and demonstrated proficiency in:
 
 ## 📂 Directory Structure & Write-ups
 
-All write-ups are stored as individual PDFs. You can find them structured as follows:
+All write-ups are stored as individual PDFs. There description is as follows:
 
 | Levels | Description / Focus Area
 | --- | --- |
